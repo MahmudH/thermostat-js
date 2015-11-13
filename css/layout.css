@@ -1,0 +1,53 @@
+.container{
+  
+}
+
+.wrapper{
+  width: 320px;
+  margin: 30px auto;
+  /*background-color: red;*/
+}
+
+.temperature-display{
+  font-family: monospace;
+  font-size: 15em;
+  color: #fff;
+  position: relative;
+  bottom: 100px;
+  margin-left: 25px;
+}
+
+.powersaving-display{
+  font-family: monospace;
+  float: right;
+  margin: 20px 20px;
+  font-size: 2em;
+  color: #fff;
+}
+
+.temperature-box{
+  width: 300px;
+  height: 320px;
+  background-color: #2196f3;
+  margin: 10px auto;
+}
+
+.toggle-powersaving{
+  margin: 9px 10px;
+  width: 300px !important;
+}
+
+.up-button{
+  width: 145px !important;
+  margin-left: 10px;
+}
+
+.down-button{
+  width: 145px !important;
+  margin-left: 5px;
+}
+
+.reset-button{
+  margin: 5px 10px;
+  width: 300px !important;
+}
