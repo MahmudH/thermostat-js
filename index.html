@@ -3,6 +3,7 @@
   <head>
       <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/flick/jquery-ui.css" />
       <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel='stylesheet' type='text/css' href='css/layout.css'>
@@ -20,18 +21,32 @@
       <div class="temperature-display"></div>
     </div>
 
+
+
     <button class = 'waves-effect waves-light btn up-button'>+</button>
 		<button class = 'waves-effect waves-light btn down-button'>-</button>
 
     <button class ='waves-effect waves-light btn toggle-powersaving'>Power Saving ON/OFF</button>
 
-    <button class= 'red waves-effect waves-light btn down-button reset-button'>Reset</button>
+    <button class= 'red waves-effect waves-light btn reset-button'>Reset</button>
+
+    <form action="" method="post" name="form_citydetails" id="form_citydetails" enctype="multipart/form-data" onsubmit="return false;">
+    <p><b>Please enter</b> your city here. <input class="ff_elem" type="text" name="ff_nm_from[]" value="" id="f_elem_city"/>
+    </form>
+
 
       <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/thermostat.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
-      <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    <script type="text/javascript" src="js/weatherapp.js"></script>
+    <script type="text/javascript" src="js/geomapapi.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script> 
+
+      <div id="display-location">
+
+      </div>
   </body>
 </html>
